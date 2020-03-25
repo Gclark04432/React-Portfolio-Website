@@ -10,24 +10,34 @@ body {
   'nav nav nav'
   'about-me about-me about-me'
   'ruby javascript java';
+  text-align: center;
+  background-color: black;
 }
 
 .nav {
   grid-area: nav;
+  height: 2rem;
+  background-color: blue;
 }
 
 .about-me {
   grid-area: about-me;
+  justify-content: center;
+  height: 20rem;
+  background-color: red;
 }
 
 .ruby {
   grid-area: ruby;
+  background-color: orange;
 }
 
 .javascript {
   grid-area: javascript;
+  background-color: purple;
 }
 
 .java {
   grid-area: java;
+  background: green;
 }
