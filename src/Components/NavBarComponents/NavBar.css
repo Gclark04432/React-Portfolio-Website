@@ -4,12 +4,15 @@
   margin: 0;
   padding: 8px;
   width: 50%;
+  color: white;
 }
 
 .navbar-list-item{
   float: left;
   padding: 8px 16px;
   text-align: center;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 li:last-child {

@@ -1,28 +1,23 @@
 import React from 'react';
 import './NavBar.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 function NavBar() {
-
-  // Get the container element
-
-// Get all buttons with class="btn" inside the container
-// var btns = btnContainer.getElementsByClassName("btn");
-
-// Loop through the buttons and add the active class to the current/clicked button
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//     this.className += " active";
-//   });
-// }
   return(
+    <Router>
       <ul className="navbar-list">
-        <li className="navbar-list-item active">Home Page</li>
-        <li className="navbar-list-item">About Me</li>
-        <li className="navbar-list-item">Projects</li>
-        <li className="navbar-list-item">Contact Info</li>
+        <Link to="/" className="navbar-list-item active">Home Page</Link>
+        <Link to="/about-me" className="navbar-list-item">About Me</Link>
+        <Link to="./projects" className="navbar-list-item">Projects</Link>
+        <Link to="contact" className="navbar-list-item">Contact Info</Link>
       </ul>
+    </Router>
   )
 
 }
