@@ -2,14 +2,6 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-areas:
-  'nav nav nav'
-  'about-me about-me about-me'
-  'ruby javascript java'
-  'footer footer footer';
-  grid-gap: 1rem;
-  align-items: center;
-  align-items: stretch;
   justify-content: space-around;
   top: 0;
   left: 0;
@@ -31,47 +23,16 @@
 
 
 #nav {
-  grid-area: nav;
   background-color: #5C2751;
+  grid-row: 1;
+  width: 100vw;
+  position: absolute;
 }
 
 .about-me {
-  grid-area: about-me;
   justify-content: center;
-  padding: 10px;
-  height: 20rem;
 }
 
-.ruby {
-  grid-area: ruby;
-  height: 8rem;
-  width: 15rem;
-  justify-self: center;
-}
-
-.javascript {
-  grid-area: javascript;
-  height: 8rem;
-  width: 15rem;
-  justify-self: center;
-}
-
-.java {
-  grid-area: java;
-  height: 8rem;
-  width: 15rem;
-  justify-self: center;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: silver;
-  height: 3rem;
-}
-
-.logo {
-  width: 80%;
-  height: 80%;
-  align-self: center;
-  padding: 5px;
+.main-content {
+  margin-top: 30px;
 }

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+.contact-list {
+  list-style: none;
+}
+
+.phone {
+  background-image: url("../../pictures/phone.jpeg")
+}
+
+.contact-icon {
+  height: 34px;
+}
+
+.contact-page {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  margin: 25px;
+}
+
+.contact-page h1 {
+  margin: 40px;
+  background-color: #F1FFE7;
+  font-size: 30px;
+}
