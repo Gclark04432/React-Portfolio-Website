@@ -30,7 +30,7 @@
 }
 
 
-.nav {
+#nav {
   grid-area: nav;
   background-color: #5C2751;
 }

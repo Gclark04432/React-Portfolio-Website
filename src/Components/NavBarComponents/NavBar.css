@@ -20,3 +20,8 @@ li:last-child {
   background-color: #EDEEC9;
   color: purple;
 }
+
+.active{
+    background-color: #666;
+    color: white;
+  }
