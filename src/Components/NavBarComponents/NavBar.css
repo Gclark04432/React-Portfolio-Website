@@ -1,0 +1,22 @@
+.navbar-list{
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  width: 50%;
+}
+
+.navbar-list-item{
+  float: left;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.navbar-list-item:hover{
+  background-color: #EDEEC9;
+  color: purple;
+}
