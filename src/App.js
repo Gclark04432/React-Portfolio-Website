@@ -3,6 +3,7 @@ import AboutMe from './Components/AboutMeComponents/AboutMe.js'
 import NavBar from './Components/NavBarComponents/NavBar.js'
 import ProjectList from './Components/ProjectComponents/ProjectList.js'
 import Contact from './Components/ContactComponents/Contact.js'
+import HomePage from './Components/HomePageComponents/HomePage.js'
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,13 +34,16 @@ useEffect(() => {
           <Switch>
             <>
             <main className="main-content">
-            <Route path="/about">
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+            <Route exact path="/about">
               <AboutMe />
             </Route>
-            <Route path="/projects">
+            <Route exact path="/projects">
               <ProjectList />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
               <Contact />
             </Route>
             </main>

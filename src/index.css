@@ -6,27 +6,16 @@
   top: 0;
   left: 0;
   position: absolute;
-}
-
-.App::after {
-  content: "";
-  background-image: url('./edinburgh-backdrop.jpg');
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-size: cover;
-  z-index: -1;
+  background-color: #283D3B;
 }
 
 
 #nav {
-  background-color: #5C2751;
+  background-color: #283D3B;
   grid-row: 1;
   width: 100vw;
   position: absolute;
+  border-bottom: solid 1px white;
 }
 
 .about-me {

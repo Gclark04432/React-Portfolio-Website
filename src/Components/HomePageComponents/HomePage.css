@@ -1,0 +1,27 @@
+.home-page-content {
+  height: 70vh;
+  width: 100vw;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr;
+  margin-top: 23px;
+}
+
+.intro {
+  grid-row: 1;
+  height: 30%;
+  color: #C6AC8F;
+  text-align: center;
+  font-size: 25px;
+  align-self: center;
+  margin: 40px;
+  padding: 60px;
+  border-bottom: solid 1px white;
+}
+
+.title-in-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #C44536;
+}
