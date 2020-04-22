@@ -5,6 +5,7 @@
   padding: 8px;
   width: 50%;
   color: white;
+  float: right;
 }
 
 .navbar-list-item{
@@ -28,3 +29,17 @@ li:last-child {
     background-color: #666;
     color: white;
   }
+
+.title {
+  margin-left: 40px;
+  position: absolute;
+}
+
+.my-name {
+  color: red;
+  font-size: 4vh;
+}
+
+.my-title {
+  color: white;
+}
