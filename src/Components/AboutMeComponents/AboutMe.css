@@ -32,4 +32,10 @@
 
 .hobbies-header {
   text-decoration: underline #C44536;
+  font-size: 25px
+}
+
+.hobbies-text {
+  font-size: 18px;
+  margin: 10px;
 }

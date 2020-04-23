@@ -21,7 +21,7 @@ function HomePage() {
       <p className="intro">
         I am a graduate <span className="title-in-text">Software Developer</span> taking my first steps in the industry.
         <br/><br/>
-        Based in edinburgh currently I have experience working on full-stack applications and am confident in a number of languages and technologies as my project showcase demonstrates.
+        Based in edinburgh currently, I have experience working on full-stack applications and am confident in a number of languages and technologies as my project showcase demonstrates.
       </p>
       <section className="tech-and-languages">
         <img className="logo" src={rubyLogo} alt="Ruby"/>
