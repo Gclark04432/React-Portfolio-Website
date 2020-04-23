@@ -2,14 +2,27 @@
 
 .contact-list {
   list-style: none;
+  width: 300px;
+  text-align: left;
+  padding-inline-start: 5px;
+  color: #C44536;
+  font-weight: bold;
 }
 
-.phone {
-  background-image: url("../../pictures/phone.jpeg")
+.contact-list-item:first-child {
+  padding-top: 20px;
+}
+
+.contact-list-item:last-child {
+  padding-bottom: 20px;
+}
+
+.contact-list-item {
+  margin-top: 20px;
 }
 
 .contact-icon {
-  height: 34px;
+  height: 20px;
 }
 
 .contact-page {

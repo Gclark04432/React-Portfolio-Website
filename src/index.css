@@ -8,6 +8,7 @@
   left: 0;
   position: absolute;
   background-color: #001011;
+  overflow: scroll;
 }
 
 

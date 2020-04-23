@@ -1,8 +1,5 @@
 import React from 'react';
 import './ContactMe.css';
-import phoneIcon from '../../pictures/phone.jpeg';
-import emailIcon from '../../pictures/email.png';
-import gitHubIcon from '../../pictures/github.png';
 import linkedInIcon from '../../pictures/linkedIn.png';
 
 function Contact() {
@@ -12,13 +9,11 @@ function Contact() {
       You can email me using the form below, alternatively good old fashioned phone calls or LinkedIn messages/conections are more than welcome!<br/>
     </p>
       <ul className="contact-list">
-        <li className="contact-list-item"><img className="contact-icon" src={phoneIcon} alt="phone"/>+447860632294
+        <li className="contact-list-item"> 📞: +447860632294
         </li>
-        <li className="contact-list-item"><img className="contact-icon" src={emailIcon} alt="email"/>gclark04432@live.co.uk
+        <li className="contact-list-item"> 📨: gclark04432@live.co.uk
         </li>
-        <li className="contact-list-item"><img className="contact-icon" src={gitHubIcon} alt="gitHub"/>TBC
-        </li>
-        <li className="contact-list-item"><img className="contact-icon" src={linkedInIcon} alt="linkedInIcon"/>TBC
+        <li className="contact-list-item"><img className="contact-icon" src={linkedInIcon} alt="linkedInIcon"/> : www.linkedin.com/in/gary--clark/
         </li>
       </ul>
     </article>

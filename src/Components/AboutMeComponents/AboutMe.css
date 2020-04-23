@@ -10,7 +10,7 @@
   text-align: center;
   height: 80%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1.2fr;
   width: 90vw;
 }
 
