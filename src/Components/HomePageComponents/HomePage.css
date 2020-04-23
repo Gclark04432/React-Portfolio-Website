@@ -1,22 +1,22 @@
 .home-page-content {
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   text-align: center;
   display: grid;
-  grid-template-rows: 1fr 2fr;
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 6fr;
   margin-top: 23px;
 }
 
 .intro {
   grid-row: 1;
-  height: 30%;
+  height: 90%;
   color: #C6AC8F;
   text-align: center;
   font-size: 25px;
   align-self: center;
-  margin: 40px;
-  padding: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 30px;
   border-bottom: solid 1px white;
 }
 
@@ -24,4 +24,22 @@
   font-size: 30px;
   font-weight: bold;
   color: #C44536;
+}
+
+.tech-and-languages {
+  grid-row: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  width: 80%;
+  height: 300px;
+  justify-self: center;
+  margin-top: 50px;
+}
+
+.logo {
+  height: 100px;
+  padding: 25px;
 }
