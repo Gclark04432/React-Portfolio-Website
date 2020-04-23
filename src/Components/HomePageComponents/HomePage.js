@@ -24,20 +24,20 @@ function HomePage() {
         Based in edinburgh currently I have experience working on full-stack applications and am confident in a number of languages and technologies as my project showcase demonstrates.
       </p>
       <section className="tech-and-languages">
-        <img class="logo" src={rubyLogo} alt="Ruby"/>
-        <img class="logo" src={javaLogo} alt="Java"/>
-        <img class="logo" src={javascriptLogo} alt="Javascript"/>
-        <img class="logo" src={reactLogo} alt="JS React"/>
-        <img class="logo" src={swiftLogo} alt="Swift"/>
+        <img className="logo" src={rubyLogo} alt="Ruby"/>
+        <img className="logo" src={javaLogo} alt="Java"/>
+        <img className="logo" src={javascriptLogo} alt="Javascript"/>
+        <img className="logo" src={reactLogo} alt="JS React"/>
+        <img className="logo" src={swiftLogo} alt="Swift"/>
 
-        <img class="logo" src={htmlLogo} alt="HTML5"/>
-        <img class="logo" src={vueLogo} alt="JS Vue"/>
+        <img className="logo" src={htmlLogo} alt="HTML5"/>
+        <img className="logo" src={vueLogo} alt="JS Vue"/>
 
-        <img class="logo" src={intellijLogo} alt="Intelli J"/>
-        <img class="logo" src={jsonLogo} alt="Json"/>
-        <img class="logo" src={mongodbLogo} alt="MongoDB"/>
-        <img class="logo" src={postgresLogo} alt="Postgres"/>
-        <img class="logo" src={springLogo} alt="Java Spring"/>
+        <img className="logo" src={intellijLogo} alt="Intelli J"/>
+        <img className="logo" src={jsonLogo} alt="Json"/>
+        <img className="logo" src={mongodbLogo} alt="MongoDB"/>
+        <img className="logo" src={postgresLogo} alt="Postgres"/>
+        <img className="logo" src={springLogo} alt="Java Spring"/>
       </section>
     </article>
   )

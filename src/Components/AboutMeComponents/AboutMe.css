@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+
 .about-me-main {
-  margin-top:30px;
+  margin-top: 50px;
   display: flex;
-  justify-content: center;
-  font-family: fantasy;
+  justify-self: center;
+  font-family: 'Nunito', sans-serif;
+  color: #C6AC8F;
+  font-size: 25px;
+  text-align: center;
 }
