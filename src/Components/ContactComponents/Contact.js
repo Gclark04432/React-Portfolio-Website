@@ -12,8 +12,8 @@ function Contact() {
     <article className="contact-page">
     <section className="contact-page-images">
       <img src={edinburghImage} alt="Edinburgh Skyline"/>
-      <img src={footballImage} alt="Football Image"/>
-      <img src={basketballImage} alt="Basketball Image"/>
+      <img src={footballImage} alt="Football"/>
+      <img src={basketballImage} alt="Basketball"/>
     </section>
     <section className="contact-me-details">
     <p className="contact-me-text"><span className="contact-title">Give me a shout!</span><br/>
@@ -29,7 +29,7 @@ function Contact() {
       </ul>
       </section>
       <section className="contact-me-form-section">
-        <ContactForm />
+        <ContactForm className="contact-form"/>
       </section>
     </article>
   )
