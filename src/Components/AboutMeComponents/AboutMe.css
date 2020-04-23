@@ -6,11 +6,11 @@
   display: grid;
   font-family: 'Nunito', sans-serif;
   color: #C6AC8F;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   height: 80%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1.2fr;
+  grid-template-rows: 1fr 1.4fr;
   width: 90vw;
 }
 
