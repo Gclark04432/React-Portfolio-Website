@@ -15,11 +15,16 @@
 .contact-page {
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  margin: 25px;
+  margin-top: 60px;
+  width: 90vw;
 }
 
-.contact-page h1 {
-  margin: 40px;
-  background-color: #F1FFE7;
-  font-size: 30px;
+.contact-title {
+  font-size: 35px;
+  color: #C44536;
+}
+
+.contact-me-text {
+  font-size: 18px;
+  color: #C6AC8F;
 }

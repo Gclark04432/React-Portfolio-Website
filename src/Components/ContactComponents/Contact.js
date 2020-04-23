@@ -8,7 +8,9 @@ import linkedInIcon from '../../pictures/linkedIn.png';
 function Contact() {
   return (
     <article className="contact-page">
-    <h1>You can reach my on the below at any time. I am also available for video conferencing to discuss your needs if more suitable!</h1>
+    <p className="contact-me-text"><span className="contact-title">Give me a shout!</span><br/>
+      You can email me using the form below, alternatively good old fashioned phone calls or LinkedIn messages/conections are more than welcome!<br/>
+    </p>
       <ul className="contact-list">
         <li className="contact-list-item"><img className="contact-icon" src={phoneIcon} alt="phone"/>+447860632294
         </li>
