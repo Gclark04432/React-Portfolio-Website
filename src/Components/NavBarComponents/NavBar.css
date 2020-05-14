@@ -4,7 +4,7 @@
   margin: 8px;
   padding: 8px;
   width: 50%;
-  color: #C44536;
+  color: #00A7E1;
   float: right;
 }
 
@@ -21,7 +21,7 @@ li:last-child {
 }
 
 .navbar-list-item:hover{
-  color: #EAE0D5;
+  color: red;
 }
 
 .active{
@@ -34,10 +34,10 @@ li:last-child {
 }
 
 .my-name {
-  color: #C44536;
+  color: white;
   font-size: 4vh;
 }
 
 .my-title {
-  color: #C6AC8F;
+  color: #00A7E1;
 }

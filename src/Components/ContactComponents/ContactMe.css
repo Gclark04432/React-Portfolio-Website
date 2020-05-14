@@ -34,7 +34,7 @@
   width: 300px;
   text-align: left;
   padding-inline-start: 5px;
-  color: #C44536;
+  color: #00A7E1;
   font-weight: bold;
 }
 
@@ -56,12 +56,12 @@
 
 .contact-title {
   font-size: 35px;
-  color: #C44536;
+  color: white;
 }
 
 .contact-me-text {
   font-size: 18px;
-  color: #C6AC8F;
+  color: #00A7E1;
 }
 
 .contact-me-form-section {
@@ -70,7 +70,7 @@
 }
 
 label {
-  color: #C6AC8F;
+  color: #00A7E1;
 }
 
 input[type=text], select, textarea {
@@ -85,12 +85,12 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  color: #C6AC8F;
+  color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #C44536;
+  background-color: #00A7E1;
 }
 
 input[type=submit]:hover {

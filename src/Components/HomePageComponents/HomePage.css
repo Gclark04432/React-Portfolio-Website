@@ -6,14 +6,14 @@
   text-align: center;
   display: grid;
   grid-template-rows: 1fr 6fr;
-  margin-top: 23px;
+  margin-top: 30px;
   font-family: 'Nunito', sans-serif;
 }
 
 .intro {
   grid-row: 1;
   height: 90%;
-  color: #C6AC8F;
+  color: #00A7E1;
   text-align: center;
   font-size: 25px;
   align-self: center;
@@ -26,7 +26,7 @@
 .title-in-text {
   font-size: 30px;
   font-weight: bold;
-  color: #C44536;
+  color: white;
 }
 
 .tech-and-languages {
