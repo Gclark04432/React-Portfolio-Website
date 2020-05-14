@@ -2,18 +2,16 @@ import React from 'react';
 import './ContactMe.css';
 import linkedInIcon from '../../pictures/linkedIn.png';
 import edinburghImage from './edinburgh-backdrop.jpg';
-import footballImage from './football.jpg';
-import basketballImage from './basketball.jpeg';
 import ContactForm from './ContactForm.js'
+import bioPic from '../../pictures/photshop_bio_pic.jpg';
 
 
 function Contact() {
   return (
     <article className="contact-page">
     <section className="contact-page-images">
-      <img src={edinburghImage} alt="Edinburgh Skyline"/>
-      <img src={footballImage} alt="Football"/>
-      <img src={basketballImage} alt="Basketball"/>
+      <img className="contact-page-image" src={edinburghImage} alt="Edinburgh Skyline"/>
+      <img className="contact-page-image" src={bioPic} alt="Photo of Me!"/>
     </section>
     <section className="contact-me-details">
     <p className="contact-me-text"><span className="contact-title">Give me a shout!</span><br/>
