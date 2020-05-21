@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import AboutMe from './Components/AboutMeComponents/AboutMe.js'
 import NavBar from './Components/NavBarComponents/NavBar.js'
 import ProjectList from './Components/ProjectComponents/ProjectList.js'
@@ -25,6 +25,29 @@ useEffect(() => {
   }
 })
 
+const [projects, setProjects] = useState([
+  {
+    title: "JobSwipe Search Site",
+    languages: ["Javascript", "Java"],
+    tech: ["IntelliJ IDE", "Express", "Spring", "React", "PostgresSQL"]
+  },
+  {
+    title: "Brewcat Bar Inventory",
+    languages: ["Ruby"],
+    tech: ["Sinatra", "PostgresSQL"]
+  },
+  {
+    title: "JAGAscript Gamified Habit Tracker",
+    languages: ["Javascript"],
+    tech: ["Vue", "Express", "MongoDB"]
+  },
+  {
+    title: "Quiz Question Generator",
+    languages: ["Javascript", "Java"],
+    tech: ["IntelliJ IDE", "Express", "Spring", "React"]
+  }
+])
+
   return (
     <div className="App">
       <Router>
@@ -41,7 +64,7 @@ useEffect(() => {
               <AboutMe />
             </Route>
             <Route exact path="/projects">
-              <ProjectList />
+              <ProjectList projects={projects}/>
             </Route>
             <Route exact path="/contact">
               <Contact />

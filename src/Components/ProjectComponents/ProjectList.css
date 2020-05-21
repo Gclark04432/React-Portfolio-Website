@@ -3,4 +3,15 @@
     color: white;
     display: flex;
     width: 80vw;
+    flex-direction: column;
+}
+
+.project-list {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.project {
+    margin: 10px;
+    border: 2px solid red;
 }
