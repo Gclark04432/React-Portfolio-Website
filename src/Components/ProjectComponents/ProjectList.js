@@ -18,11 +18,20 @@ function ProjectList({ projects }) {
       )
     })
 
+    const background = {
+      backgroundImage: 'url('+project.image+')'
+    }
+    console.log(background);
+    
+
     return (
-      <li key={index} className="project">
-        <h2>{project.title}</h2>
-          <ul>{renderLanguages}</ul>
-          <ul>{renderTech}</ul>
+      
+      <li key={index} className="project" style={background}>
+        <p className="project-title">{project.title}</p>
+        <section className="language-and-tech-list">
+          <ul className="language-list">{renderLanguages}</ul>
+          <ul className="tech-list">{renderTech}</ul>
+        </section>
       </li>
     )
   })

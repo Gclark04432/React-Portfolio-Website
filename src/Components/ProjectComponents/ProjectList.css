@@ -1,17 +1,52 @@
 .main-projectList{
     margin-top: 50px;
-    color: white;
-    display: flex;
-    width: 80vw;
-    flex-direction: column;
 }
 
 .project-list {
     list-style: none;
-    justify-content: space-between;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 .project {
     margin: 10px;
-    border: 2px solid red;
+    display: block;
+    width: 450px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5px solid white;
+}
+
+.language-and-tech-list {
+    display: flex;
+}
+
+.project-title {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline #00A7E1;
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.language-list{
+    list-style: none;
+    width: 40%;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.tech-list {
+    list-style: none;
+    width: 40%;
+    padding-bottom: 10px;
+    text-align: center;
 }

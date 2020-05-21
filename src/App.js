@@ -1,15 +1,20 @@
 import React, {useState, useEffect} from 'react';
-import AboutMe from './Components/AboutMeComponents/AboutMe.js'
-import NavBar from './Components/NavBarComponents/NavBar.js'
-import ProjectList from './Components/ProjectComponents/ProjectList.js'
-import Contact from './Components/ContactComponents/Contact.js'
-import HomePage from './Components/HomePageComponents/HomePage.js'
+import AboutMe from './Components/AboutMeComponents/AboutMe.js';
+import NavBar from './Components/NavBarComponents/NavBar.js';
+import ProjectList from './Components/ProjectComponents/ProjectList.js';
+import Contact from './Components/ContactComponents/Contact.js';
+import HomePage from './Components/HomePageComponents/HomePage.js';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
+import jobswipe from './pictures/job-swipe-mainpage.png';
+import brewcat from './pictures/brewcat-online-inventory.png';
+import habitTracker from './pictures/javascipt-habit-tracker-mainpage.png';
+import quizGenerator from  './pictures/quiz-generator-mainpage.png';
 
 function App() {
 
@@ -29,22 +34,26 @@ const [projects, setProjects] = useState([
   {
     title: "JobSwipe Search Site",
     languages: ["Javascript", "Java"],
-    tech: ["IntelliJ IDE", "Express", "Spring", "React", "PostgresSQL"]
+    tech: ["IntelliJ IDE", "Express", "Spring", "React", "PostgresSQL"],
+    image: jobswipe
   },
   {
     title: "Brewcat Bar Inventory",
     languages: ["Ruby"],
-    tech: ["Sinatra", "PostgresSQL"]
+    tech: ["Sinatra", "PostgresSQL"],
+    image: brewcat
   },
   {
     title: "JAGAscript Gamified Habit Tracker",
     languages: ["Javascript"],
-    tech: ["Vue", "Express", "MongoDB"]
+    tech: ["Vue", "Express", "MongoDB"],
+    image: habitTracker
   },
   {
     title: "Quiz Question Generator",
     languages: ["Javascript", "Java"],
-    tech: ["IntelliJ IDE", "Express", "Spring", "React"]
+    tech: ["IntelliJ IDE", "Express", "Spring", "React"],
+    image: quizGenerator
   }
 ])
 
