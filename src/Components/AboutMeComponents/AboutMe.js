@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
+
   return(
     <main className="about-me-main">
       <section className="about-me-text">
