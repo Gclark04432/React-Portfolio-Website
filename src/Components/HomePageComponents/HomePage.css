@@ -13,20 +13,19 @@
 .intro {
   grid-row: 1;
   height: 90%;
-  color: #00A7E1;
   text-align: center;
   font-size: 25px;
   align-self: center;
   margin-left: 40px;
   margin-right: 40px;
   padding-top: 30px;
-  border-bottom: solid 1px white;
+  border-bottom: solid 1px E9E9E9;
 }
 
 .title-in-text {
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: #E9E9E9;
 }
 
 .tech-and-languages {
@@ -35,13 +34,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: white;
   width: 80%;
   height: 50vh;
   overflow: scroll;
   justify-self: center;
   margin-top: 50px;
-  opacity: 0.85;
 }
 
 .logo {

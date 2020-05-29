@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+.project:last-child {
+    border-bottom: 0.5px solid white;
+}
+
 .project {
     margin: 10px;
     display: block;

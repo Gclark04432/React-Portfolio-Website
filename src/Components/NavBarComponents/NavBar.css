@@ -4,7 +4,7 @@
   margin: 8px;
   padding: 8px;
   width: 50%;
-  color: #00A7E1;
+  color: #4EB1BA;
   float: right;
 }
 
@@ -34,10 +34,10 @@ li:last-child {
 }
 
 .my-name {
-  color: white;
+  color: #E9E9E9;
   font-size: 4vh;
 }
 
 .my-title {
-  color: #00A7E1;
+  color: #4EB1BA;
 }

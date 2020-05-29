@@ -1,17 +1,16 @@
 import React from 'react';
 import './HomePage.css';
 
-import htmlLogo from './html-logo.png'
-import intellijLogo from './intellij-logo.jpeg'
+import htmlLogo from './html-css-logo.png'
+import intellijLogo from './intellij-logo.png'
 import javaLogo from './java-logo.png'
-import javascriptLogo from './javascript-logo.jpeg'
-import jsonLogo from './json-logo.jpeg'
+import javascriptLogo from './javascript-logo.png'
 import mongodbLogo from './mongodb-logo.png'
 import postgresLogo from './postgres-logo.png'
 import reactLogo from './react-logo.png'
 import rubyLogo from './ruby-logo.png'
 import springLogo from './spring-logo.png'
-import swiftLogo from './swift-logo.jpeg'
+import swiftLogo from './swift-logo.png'
 import vueLogo from './vue-logo.png'
 
 
@@ -34,7 +33,6 @@ function HomePage() {
         <img className="logo" src={vueLogo} alt="JS Vue"/>
 
         <img className="logo" src={intellijLogo} alt="Intelli J"/>
-        <img className="logo" src={jsonLogo} alt="Json"/>
         <img className="logo" src={mongodbLogo} alt="MongoDB"/>
         <img className="logo" src={postgresLogo} alt="Postgres"/>
         <img className="logo" src={springLogo} alt="Java Spring"/>
