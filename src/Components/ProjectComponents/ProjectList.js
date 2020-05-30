@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { Player } from 'video-react';
+import jobSwipeVid from './Jobswipe.webm';
+import quizGenVid from './Quizgenerator.webm';
+
 import './ProjectList.css';
 
+
 function ProjectList({ projects }) {
+
+  const [selectedVid, setSelectedVid] = useState()
 
   if (!projects) return null;
   const renderProjects = projects.map((project, index) => {
@@ -21,13 +28,17 @@ function ProjectList({ projects }) {
     const background = {
       backgroundImage: 'url('+project.image+')'
     }
-    console.log(background);
     
+    const handleProjectSelect = (event) => {
+      if (event.target.value === 0) setSelectedVid(jobSwipeVid)
+      if (event.target.value === 3) setSelectedVid(quizGenVid)
+      console.log(event.target.value);
+      
+    }
 
     return (
       
-      <li key={index} className="project" style={background}>
-        <p className="project-title">{project.title}</p>
+      <li onClick={handleProjectSelect} value={index} key={index} className="project" style={background}>
         <section className="language-and-tech-list">
           {/* <ul className="language-list">{renderLanguages}</ul>
           <ul className="tech-list">{renderTech}</ul> */}
@@ -38,6 +49,20 @@ function ProjectList({ projects }) {
 
   return (
     <section className="main-projectList">
+
+      <div className="project-wrapper">
+      <link
+        rel="stylesheet"
+        href="https://video-react.github.io/assets/video-react.css"
+      />
+      <Player className="react-player "
+        playsInline 
+        src={selectedVid}
+        style="width: 200px;"
+
+       />
+      </div>
+    
       <ul className="project-list">
         {renderProjects}
       </ul>

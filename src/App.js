@@ -5,6 +5,7 @@ import ProjectList from './Components/ProjectComponents/ProjectList.js';
 import Contact from './Components/ContactComponents/Contact.js';
 import HomePage from './Components/HomePageComponents/HomePage.js';
 
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,25 +33,25 @@ useEffect(() => {
 
 const [projects, setProjects] = useState([
   {
-    title: "JobSwipe Search Site",
+    title: "JobSwipe",
     languages: ["Javascript", "Java"],
     tech: ["IntelliJ IDE", "Express", "Spring", "React", "PostgresSQL"],
     image: jobswipe
   },
   {
-    title: "Brewcat Bar Inventory",
+    title: "Brewcat",
     languages: ["Ruby"],
     tech: ["Sinatra", "PostgresSQL"],
     image: brewcat
   },
   {
-    title: "JAGAscript Gamified Habit Tracker",
+    title: "HabitTracker",
     languages: ["Javascript"],
     tech: ["Vue", "Express", "MongoDB"],
     image: habitTracker
   },
   {
-    title: "Quiz Question Generator",
+    title: "QuizGenerator",
     languages: ["Javascript", "Java"],
     tech: ["IntelliJ IDE", "Express", "Spring", "React"],
     image: quizGenerator
