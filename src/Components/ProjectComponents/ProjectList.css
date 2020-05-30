@@ -20,8 +20,8 @@
 .project {
     margin: 10px;
     display: flex;
-    width: 450px;
-    height: 250px;
+    width: 300px;
+    height: 130px;
     background-repeat: no-repeat;
     background-size: cover;
     border: 0.5px solid white;
