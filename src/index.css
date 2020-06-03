@@ -19,6 +19,7 @@
   width: 100vw;
   position: absolute;
   border-bottom: solid 5px white;
+  min-width: 1000px;
 }
 
 .about-me {
