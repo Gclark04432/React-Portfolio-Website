@@ -1,9 +1,13 @@
 import React, {useState, useEffect} from 'react';
+import { Helmet } from 'react-helmet'
+
 import AboutMe from './Components/AboutMeComponents/AboutMe.js';
 import NavBar from './Components/NavBarComponents/NavBar.js';
 import ProjectList from './Components/ProjectComponents/ProjectList.js';
 import Contact from './Components/ContactComponents/Contact.js';
 import HomePage from './Components/HomePageComponents/HomePage.js';
+
+import favicon from './pictures/favicon.png';
 
 
 import {
@@ -59,6 +63,10 @@ const [projects, setProjects] = useState([
 ])
 
   return (
+    <>
+    <Helmet>
+      <title>Gary A. Clark</title>
+    </Helmet>
     <div className="App">
       <Router>
           <nav id="nav">
@@ -84,6 +92,7 @@ const [projects, setProjects] = useState([
         </Switch>
       </Router>
     </div>
+    </>
   );
 }
 

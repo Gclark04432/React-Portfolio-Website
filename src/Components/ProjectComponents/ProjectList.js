@@ -15,18 +15,6 @@ function ProjectList({ projects }) {
   if (!projects) return null;
   const renderProjects = projects.map((project, index) => {
 
-    const renderLanguages = project.languages.map((language, index) => {
-      return (
-        <li key={index} className="language">{language}</li>
-      )
-    })
-
-    const renderTech = project.tech.map((t, index) => {
-      return (
-        <li key={index} className="tech">{t}</li>
-      )
-    })
-
     const background = {
       backgroundImage: 'url('+project.image+')'
     }
@@ -57,15 +45,10 @@ function ProjectList({ projects }) {
     </ul>
 
       <div className="project-wrapper">
-      <link
-        rel="stylesheet"
-        href="https://video-react.github.io/assets/video-react.css"
-      />
+      
       <Player className="react-player "
         playsInline 
         src={selectedVid}
-        style="width: 200px;"
-
        />
       </div>
     
