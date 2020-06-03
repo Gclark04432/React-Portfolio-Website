@@ -3,7 +3,7 @@ import { Player } from 'video-react';
 import jobSwipeVid from './Jobswipe.webm';
 import brewCat from './BrewCatInventory.webm';
 import habitTracker from './habit_tracker.webm';
-import quizGenVid from './Quizgenerator.webm';
+// import quizGenVid from './Quizgenerator.webm';
 
 import './ProjectList.css';
 
@@ -34,7 +34,7 @@ function ProjectList({ projects }) {
     const handleProjectSelect = (event) => {
       if (event.target.value === 0) setSelectedVid(jobSwipeVid)
       if (event.target.value === 1) setSelectedVid(brewCat)
-      if (event.target.value === 2) setSelectedVid(habitTracker)
+      // if (event.target.value === 2) setSelectedVid(habitTracker)
       if (event.target.value === 3) setSelectedVid(quizGenVid)      
     }
 
